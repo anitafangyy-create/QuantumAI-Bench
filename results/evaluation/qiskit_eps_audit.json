@@ -1,0 +1,12 @@
+{
+  "n_thetas": 500,
+  "n_pairs": 1500,
+  "violations": 0,
+  "err_over_eps_median": 0.356,
+  "err_over_eps_p90": 0.7457,
+  "t_median_by_eps": {
+    "1e-09": 92.0,
+    "1e-06": 62.0,
+    "0.001": 32.0
+  }
+}

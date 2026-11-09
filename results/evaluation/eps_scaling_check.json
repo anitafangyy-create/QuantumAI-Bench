@@ -1,0 +1,81 @@
+{
+  "n_circuits": 4441,
+  "per_angle_slope_1e-3_to_1e-6": {
+    "median": 5.8094406612634835,
+    "p10": 2.7195979977092364,
+    "p90": 6.2002743039700015
+  },
+  "per_angle_slope_1e-6_to_1e-9": {
+    "median": 3.025351456423011,
+    "p10": 2.51884204039606,
+    "p90": 3.5097399664623556
+  },
+  "expected_theory_slope_per_angle": 3.0,
+  "frac_within_2p5_to_3p5": {
+    "1e-3_to_1e-6": 0.4246791263229002,
+    "1e-6_to_1e-9": 0.62913758162576
+  },
+  "note": "斜率按'每个非 Clifford 角每 log2(1/ε) 一位'归一；理论值 3（Ross–Selinger 的 3log2 界）。",
+  "worst_algos": {
+    "grover_n14": {
+      "n": 1646,
+      "median_slope": 3.5097399664623556
+    },
+    "grover_n13": {
+      "n": 840,
+      "median_slope": 2.711604657985343
+    },
+    "randomcircuit": {
+      "n": 417,
+      "median_slope": 2.793139014494154
+    },
+    "grover_n12": {
+      "n": 398,
+      "median_slope": 2.515038320158222
+    },
+    "grover_n11": {
+      "n": 206,
+      "median_slope": 2.51884204039606
+    },
+    "grover_n10": {
+      "n": 100,
+      "median_slope": 3.2048820831146285
+    },
+    "grover_n9": {
+      "n": 59,
+      "median_slope": 3.0102999566398116
+    },
+    "ae": {
+      "n": 38,
+      "median_slope": 3.0927145807274874
+    },
+    "vqe_su2": {
+      "n": 38,
+      "median_slope": 3.0412652817146224
+    },
+    "qnn": {
+      "n": 38,
+      "median_slope": 3.023807712855503
+    },
+    "qaoa": {
+      "n": 38,
+      "median_slope": 3.0341314979632106
+    },
+    "vqe_two_local": {
+      "n": 37,
+      "median_slope": 3.04040295620621
+    },
+    "qpeinexact": {
+      "n": 37,
+      "median_slope": 3.0093443058599263
+    },
+    "qftentangled": {
+      "n": 37,
+      "median_slope": 3.021449215738478
+    },
+    "hhl": {
+      "n": 37,
+      "median_slope": 3.0595810012948625
+    }
+  }
+}

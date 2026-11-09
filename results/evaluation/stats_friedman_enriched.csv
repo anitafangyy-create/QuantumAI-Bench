@@ -1,0 +1,5 @@
+protocol,target,n_blocks,friedman_stat,p_raw,model_order,best_by_mean_rank,p_holm,significant_after_holm,df,kendall_w
+grouped,logical_t_count,1683,2762.3969102792653,0.0,ridge=2.98; rf=1.20; xgb=1.82,rf,0.0,True,2,0.8206764439332339
+grouped,physical_qubits,1900,2934.9884210526325,0.0,ridge=2.95; rf=1.21; xgb=1.84,rf,0.0,True,2,0.7723653739612191
+crosssrc,logical_t_count,5299,8063.139837705225,0.0,ridge=2.98; rf=1.30; xgb=1.72,rf,0.0,True,2,0.7608171199948316
+crosssrc,physical_qubits,6236,5238.974021808841,0.0,ridge=2.74; rf=1.55; xgb=1.71,rf,0.0,True,2,0.4200588535767191

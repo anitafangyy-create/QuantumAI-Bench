@@ -1,0 +1,9 @@
+circuit_id,algorithm,num_qubits,t_count_pipeline_eps1e-3,t_count_gridsynth_eps1e-10,t_count_qiskit_basis,ratio_gridsynth_vs_qiskit
+mqt-indep-ae-n2-r0-bd721f8e00,ae,2,677,735,907,0.8103638368246968
+mqt-indep-bmw_quark_cardinality-n2-r0-158771f0aa,bmw_quark_cardinality,2,1573,1735,2135,0.8126463700234192
+mqt-indep-bmw_quark_copula-n2-r0-3f1bb2219b,bmw_quark_copula,2,1108,1227,1505,0.815282392026578
+mqt-indep-bv-n2-r0-67f1307b20,bv,2,0,0,0,
+mqt-indep-cdkm_ripple_carry_adder-n22-r0-e35a866e3d,cdkm_ripple_carry_adder,22,140,140,140,1.0
+mqt-indep-dj-n2-r0-dab107ad2a,dj,2,0,0,0,
+mqt-indep-draper_qft_adder-n2-r0-d6f0a1d712,draper_qft_adder,2,0,0,0,
+mqt-indep-full_adder-n4-r0-be24abd5ee,full_adder,4,14,14,14,1.0

@@ -1,0 +1,2 @@
+protocol,model,target,seed,r2_log,mdape_pct,frac_gt_10x,n,n_nonzero_ref
+grouped,gnn,logical_t_count,0,0.9837111597961997,21.870544649917356,0.02867570385818561,2122,1918

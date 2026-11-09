@@ -1,0 +1,30 @@
+{
+  "note": "只有 grouped 具备 5 个种子；loso/scale/crosssrc 为确定性划分，种子方差恒为 0（不代表稳定，只代表没有重复）。",
+  "protocols": [
+    {
+      "protocol": "crosssrc",
+      "n_seeds": 0,
+      "max_mdape_rel_std_pct": 0.0,
+      "median_mdape_rel_std_pct": 0.0
+    },
+    {
+      "protocol": "grouped",
+      "n_seeds": 5,
+      "max_mdape_rel_std_pct": 223.60679598088146,
+      "median_mdape_rel_std_pct": 10.53912911979852
+    },
+    {
+      "protocol": "loso",
+      "n_seeds": 0,
+      "max_mdape_rel_std_pct": 0.0,
+      "median_mdape_rel_std_pct": 0.0
+    },
+    {
+      "protocol": "scale",
+      "n_seeds": 0,
+      "max_mdape_rel_std_pct": 0.0,
+      "median_mdape_rel_std_pct": 0.0
+    }
+  ],
+  "detail_file": "seed_variance.csv"
+}

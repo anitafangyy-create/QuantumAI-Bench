@@ -1,0 +1,20 @@
+{
+  "n_combinations": 27,
+  "synthesis_epsilon": [
+    1e-09,
+    1e-06,
+    0.001
+  ],
+  "physical_error_rate": [
+    0.0001,
+    0.0005,
+    0.001
+  ],
+  "logical_error_budget": [
+    1e-09,
+    1e-06,
+    0.001
+  ],
+  "records_per_circuit": 27.0,
+  "nine_config_figure_subset": "the 3x3 grid of (p, budget) at epsilon = 1e-9, i.e. one ninth of the 27"
+}

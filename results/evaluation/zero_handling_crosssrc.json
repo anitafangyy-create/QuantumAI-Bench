@@ -1,0 +1,32 @@
+[
+  {
+    "model": "ridge",
+    "n": 168372,
+    "n_zero": 25299,
+    "share": 15.0,
+    "recall": 0.017431519032372823,
+    "precision": 1.0,
+    "f1": 0.03426573426573427,
+    "nonzero_mdape": 282.341
+  },
+  {
+    "model": "rf",
+    "n": 168372,
+    "n_zero": 25299,
+    "share": 15.0,
+    "recall": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "nonzero_mdape": 28.312
+  },
+  {
+    "model": "xgb",
+    "n": 168372,
+    "n_zero": 25299,
+    "share": 15.0,
+    "recall": 0.9743863393810032,
+    "precision": 1.0,
+    "f1": 0.987027027027027,
+    "nonzero_mdape": 24.187
+  }
+]

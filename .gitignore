@@ -1,0 +1,42 @@
+# Environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Raw and derived data (regenerate with scripts/, never commit)
+raw_data/
+processed_data/
+
+# Run logs
+logs/
+*.log
+
+# Manuscript and paper material — kept outside this repository by design
+docs/manuscript/
+*.docx
+*.pdf
+*.tex
+*.bib
+
+# Heavy per-record artefacts (regenerable; aggregate metrics are kept)
+results/evaluation/per_row_errors.csv
+results/evaluation/predictions_*.csv
+
+# Site-specific runners and any credential-bearing helper (never publish)
+*.exp
+scripts/night_run*.sh
+scripts/local_run.sh
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

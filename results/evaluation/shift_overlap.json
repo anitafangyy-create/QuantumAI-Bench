@@ -1,0 +1,8 @@
+{
+  "mqt_algorithms": 32,
+  "qcb_algorithms": 160,
+  "shared_algorithm_labels": [],
+  "n_shared": 0,
+  "n_qcb_signatures": 2405,
+  "n_qcb_signatures_matching_mqt": 34
+}

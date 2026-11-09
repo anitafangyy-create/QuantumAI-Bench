@@ -1,0 +1,22 @@
+[
+  {
+    "check": "ghz_t_count_zero",
+    "passed": true,
+    "detail": "GHZ 线路应完全由 Clifford 门构成"
+  },
+  {
+    "check": "t_count_monotonic_in_epsilon",
+    "passed": true,
+    "detail": "violations=0/7502"
+  },
+  {
+    "check": "t_depth_serial_ge_structural",
+    "passed": true,
+    "detail": "violations=0"
+  },
+  {
+    "check": "t_count_matches_qiskit_basis_at_eps1e-10",
+    "passed": true,
+    "detail": "max_rel_diff=0.1896, median=0.1847, qiskit_lower_than_gridsynth=0/5"
+  }
+]

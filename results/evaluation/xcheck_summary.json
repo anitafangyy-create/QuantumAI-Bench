@@ -1,0 +1,48 @@
+{
+  "n_pairs": 1500,
+  "n_theta": 500,
+  "by_eps": {
+    "1e-09": {
+      "n": 500,
+      "t_qiskit_median": 92.0,
+      "t_pygridsynth_median": 94.0,
+      "exact_equal_frac": 0.456,
+      "within_10pct_frac": 0.994,
+      "ratio_median": 1.011,
+      "ratio_p10": 1.0,
+      "ratio_p90": 1.033,
+      "max_angle_err_remote": 9.9598973513082e-10,
+      "frac_remote_err_le_eps": 1.0
+    },
+    "1e-06": {
+      "n": 500,
+      "t_qiskit_median": 62.0,
+      "t_pygridsynth_median": 64.0,
+      "exact_equal_frac": 0.488,
+      "within_10pct_frac": 0.99,
+      "ratio_median": 1.0,
+      "ratio_p10": 1.0,
+      "ratio_p90": 1.049,
+      "max_angle_err_remote": 9.659834314668103e-07,
+      "frac_remote_err_le_eps": 1.0
+    },
+    "0.001": {
+      "n": 500,
+      "t_qiskit_median": 32.0,
+      "t_pygridsynth_median": 32.0,
+      "exact_equal_frac": 0.47,
+      "within_10pct_frac": 0.878,
+      "ratio_median": 1.0,
+      "ratio_p10": 1.0,
+      "ratio_p90": 1.103,
+      "max_angle_err_remote": 0.0009900790207399979,
+      "frac_remote_err_le_eps": 1.0
+    }
+  },
+  "note": "两端同属 Ross–Selinger 算法族但实现完全独立（qiskit Rust 后端 vs pygridsynth Python+mpmath）：验证的是实现层面的一致性，而非算法层面的最优性；后者需要 Qualtran / Microsoft QRE，尚未接入。",
+  "per_rotation_T_per_log2": {
+    "1e-09": 3.077,
+    "1e-06": 3.111,
+    "0.001": 3.211
+  }
+}
