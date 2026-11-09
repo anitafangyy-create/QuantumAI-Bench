@@ -133,8 +133,13 @@ records the exact library versions. Regenerate all three with `scripts/build_rep
 
 ## License
 
-Released for review and reproduction. The licence under which this code may be redistributed is to be
-fixed before public announcement (see `LICENSE`); until then, treat it as all rights reserved.
+Apache License 2.0 — see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE). The patent grant and the
+attribution requirements of that licence are intentional: this repository implements surface-code
+accounting and synthesis-based labeling, both of which touch patented and patent-pending methods in the
+field. If a permissive, minimal-attribution licence is required instead, MIT is the drop-in substitute.
+
+The circuit corpora referenced here (MQT Bench, QCircuitBench) are **not** redistributed with this code
+and remain under their own licences and citation requirements.
 
 ## Contact
 
